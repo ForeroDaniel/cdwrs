@@ -1,0 +1,8 @@
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  if (dadYearsOld === sonYearsOld * 2)
+      return 0;
+  if (dadYearsOld < sonYearsOld * 2)
+      return sonYearsOld * 2 - dadYearsOld;
+  if (dadYearsOld > sonYearsOld * 2)
+      return dadYearsOld - sonYearsOld * 2;
+}
