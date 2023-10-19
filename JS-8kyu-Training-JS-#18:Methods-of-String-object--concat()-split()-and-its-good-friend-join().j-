@@ -1,6 +1,0 @@
-function splitAndMerge(string, separator) {
-  return string.split('')
-        .join(separator + '')
-        .split(separator + ' ' + separator)
-        .join(' ');
-}
