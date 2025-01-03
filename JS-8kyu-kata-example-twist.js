@@ -1,0 +1,1 @@
+let websites = new Array(1000).fill("codewars");
